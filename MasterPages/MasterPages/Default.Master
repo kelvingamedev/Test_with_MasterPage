@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MasterPages.MasterPages.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1>Logo goes here</h1>
+        </header>
+        <aside>
+            Sidebar goes here
+        </aside>
+        <section id="main-content">
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+        <footer>
+            <h5>Copyright a test by Kel</h5>
+        </footer>
+    </form>
+</body>
+</html>
